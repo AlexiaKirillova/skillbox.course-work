@@ -1,0 +1,117 @@
+.contacts-section {
+  position: relative;
+  padding-top: 80px;
+}
+
+.contacts-section__title {
+  margin-bottom: 28px;
+  letter-spacing: .04em;
+}
+
+.contacts__container {
+  /* display: flex;
+  align-items: flex-start; */
+  position: relative;
+}
+
+.contacts-forms {
+  position: absolute;
+  /* flex: 0 0 35.5%; */
+  width: 35.5%;
+  /* height: 100%; */
+  /* left: 0;
+  top: 0; */
+  padding-top: 129px;
+  padding-right: 122px;
+  padding-bottom: 110px;
+  background-color: var(--white-font-color);
+  /* border: 1px solid var(--grey-color);
+  border-left: none; */
+  z-index: 10;
+}
+/*
+.contacts-forms__content {
+  max-width: 400px;
+} */
+
+
+.contacts-forms__subtitle {
+  margin-bottom: 7px;
+  font-size: 24px;
+}
+
+.contacts-forms__description {
+  margin-bottom: 28px;
+  letter-spacing: .025em;
+}
+
+.contacts-forms__heading {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-size: 24px;
+  letter-spacing: .03em;
+}
+
+.contacts-form {
+  margin-bottom: 39px;
+}
+
+.contacts-form__item {
+  display: block;
+  padding: 10px 24px;
+  margin-bottom: 23px;
+  min-width: 100%;
+  border: 1px solid var(--font-color);
+  border-radius: 100px;
+}
+
+.contacts-form__item::placeholder {
+  color: var(--select-color-unactive);
+  font-size: 16px;
+  line-height: 1;
+}
+
+.contacts-form__btn {
+  padding: 18px 36px;
+  color: var(--button-color);
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.contacts-social__list {
+  display: flex;
+  align-items: flex-start;
+}
+
+.contacts-social__item:first-child {
+  margin-right: 5%;
+}
+
+.contacts-social__link {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contacts-social__whatsapp {
+  background-image: url('/img/icons/Whatsapp-Icon.svg');
+}
+
+.contacts-social__telegramm {
+  background-image: url('/img/icons/telegram-icon.svg');
+}
+
+[class*="ground-pane"] {
+  filter: grayscale(1);
+}
+
+/* .yandexMap {
+  position: absolute;
+  top: 0;
+  left: 0;
+} */

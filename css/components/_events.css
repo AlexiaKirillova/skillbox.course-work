@@ -1,0 +1,144 @@
+.events-section {
+  padding-top: 98px;
+  padding-bottom: 79px;
+}
+
+/* .events-section__content {
+  margin-bottom: 50px;
+} */
+
+.events-section__list {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.events-section__item {
+  flex: 0 0 31.3%;
+}
+
+.events-section__item:not(:nth-child(3n)) {
+  margin-right: calc((100% - (31.3% * 3)) / 2);
+}
+
+.events-section__item:nth-child(n+4) {
+  margin-top: calc((100% - (31.3% * 3)) / 2);
+}
+
+.events-card {
+  padding: 314px 19px 47px 50px;
+  border: 1px solid var(--grey-color);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+}
+
+.events-card--1 {
+  background-image: url('/img/events1.jpg');
+}
+
+.events-card--2 {
+  background-image: url('/img/events2.jpg');
+}
+
+.events-card--3 {
+  background-image: url('/img/events3.jpg');
+}
+
+.events-card--4 {
+  background-image: url('/img/events4.jpg');
+}
+
+.events-card--5 {
+  background-image: url('/img/events5.jpg');
+}
+
+.events-card__content {
+  position: relative;
+  height: 21rem;
+}
+
+.events-card__extra {
+  margin-bottom: 7px;
+}
+
+.events-card__location,
+.events-card__date {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: .02em;
+  color: var(--select-color-unactive)
+}
+
+.events-card__location {
+  margin-bottom: 3px;
+}
+
+/* .events-card__date {
+  margin-bottom: 9px;
+} */
+
+.events-card__heading {
+  line-height: 33px;
+  letter-spacing: .007em;
+}
+
+.events-card__text {
+  display: inline-block;
+  max-width: 94%;
+  letter-spacing: .035em;
+}
+
+.events-card__link-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: var(--button-color);
+}
+
+.events-link--style {
+  position: relative;
+}
+
+.events-link--style::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid var(--button-color);
+}
+
+.events-section__link {
+  display: block;
+  margin: 0 auto;
+  padding: 19px 34px;
+  width: fit-content;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--button-color);
+  border: 2px solid var(--button-color);
+  border-radius: 100px;
+}
+
+.events-section__item--hide {
+  display: none;
+}
+
+.events-section__item--hide.events-section__item--show {
+  display: block;
+}
+
+
+/* .events-card__content .events-card__text:not(:last-child) {
+  height: 12.7rem;
+}
+
+.events-card__content:nth-child(3) .events-card__text {
+  height: 15rem;
+} */

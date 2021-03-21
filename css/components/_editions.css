@@ -1,0 +1,145 @@
+.editions-section {
+  padding-top: 90px;
+  padding-bottom: 79px;
+  background: url('/img/editions-bgd.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.editions-title {
+  letter-spacing: .02em;
+}
+
+.editions-form {
+  margin-bottom: 28px;
+}
+
+.custom-confirm {
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+
+.default-confirm {
+  display: none;
+}
+
+.custom-confirm span  {
+  position: relative;
+  padding-left: 24px;
+  letter-spacing: .02em;
+}
+
+.custom-confirm span::before {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 11px;
+  height: 11px;
+  text-align: center;
+  border: 1px solid var(--white-font-color);
+}
+
+.custom-confirm input:checked + span {
+  border-color: var(--link-hover-color);
+  color: var(--link-hover-color);
+}
+
+.custom-confirm input:checked + span::before {
+  opacity: 0;
+}
+
+.custom-confirm input:checked + span::after {
+  opacity: 1;
+}
+
+.custom-confirm span::after {
+  content: '';
+  position: absolute;
+  /* top: 9px; */
+  left: 0;
+  bottom: 5px;
+  width: 11px;
+  height: 11px;
+  background: url('/img/icons/ckecked.svg') no-repeat;
+  background-position: center center;
+  border: 1px solid var(--link-hover-color);
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+}
+
+.price-heading {
+  margin-bottom: 5px;
+}
+
+.price-text:not(:last-child) {
+  margin-right: 6px;
+}
+
+.price-controls {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid var(--price-border-color);
+  border-radius: 6px;
+}
+
+.min-price,
+.max-price {
+  max-width: 72px;
+  padding: 10px;
+  margin-right: 7px;
+  color: var(--white-font-color);
+  background-color: var(--light-lilac-color);
+  border: none;
+}
+
+.slider-navigation--editions {
+  margin-bottom: 50px;
+}
+
+.editions-button-prev,
+.editions-button-next {
+  top: 130%;
+  z-index: 20;
+}
+
+.editions-pagination {
+  top: 22px;
+}
+
+.editions-card {
+  color: var(--white-font-color);
+}
+
+.editions-card__content {
+  display: flex;
+  padding-top: 17px;
+  line-height: 1;
+  letter-spacing: .04em;
+}
+
+.editions-description {
+  margin-right: auto;
+}
+
+.editions-heading {
+  margin-bottom: 5px;
+}
+
+.editions-text {
+  margin-bottom: 17px;
+}
+
+.editions-link {
+  display: inline-block;
+  padding: 10px 22px;
+  letter-spacing: 0.08em;
+}
+
+.order-btn {
+  text-align: center;
+  border: 2px solid var(--button-color);
+  border-radius: 100px;
+}

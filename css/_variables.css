@@ -1,0 +1,18 @@
+:root {
+  --font-color: #333;
+  --white-font-color: #fff;
+  --dark-background-color: #000;
+  --opacity-grey-background-color: rgba(0, 0, 0, 0.6);
+  --opacity-grey-hover-color: rgba(0, 0, 0, 0.5);
+  --opacity-grey-menu-color: rgba(0, 0, 0, 0.4);
+  --grey-color: #cacaca;
+  --select-color-unactive: #999;
+  --semi-grey-color: #ececec;
+  --dark-grey-color: #666;
+  --button-color: #9d5cd0;
+  --light-lilac-color: rgba(157, 92, 208, 0.5);
+  --link-hover-color: #c283f3;
+  --link-focus-color: #7943a4;
+  --btn-border-active-color: #d1a9f0;
+  --price-border-color: rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,87 @@
+.projects-section {
+  padding-top: 87px;
+}
+
+.projects-section__title {
+  letter-spacing: .03em;
+}
+
+.projects-section__text {
+  max-width: 69%;
+  margin-bottom: 23px;
+  letter-spacing: .037em;
+}
+
+.projects-section__link {
+  display: inline-block;
+  color: var(--button-color);
+}
+
+.tooltip-block {
+  display: inline-block;
+  position: relative;
+  width: 16px;
+}
+
+.tooltip-marker {
+  transform: translateY(3px);
+  cursor: pointer;
+}
+
+.tooltip-popup {
+  position: absolute;
+  bottom: 112%;
+  left: 0;
+  transform: translateX(-48%);
+  display: inline-block;
+  padding: 5px 10px 15px;
+  min-width: 268px;
+  text-align: center;
+  background-color: var(--grey-color);
+  color: var(--white-font-color);
+  font-size: 12px;
+  line-height: 16px;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+}
+
+.tooltip-block .tooltip-popup::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: var(--grey-color) transparent transparent transparent;
+}
+
+.tooltip-marker:hover + .tooltip-popup,
+.tooltip-marker:focus + .tooltip-popup {
+  opacity: 1;
+}
+
+.project-section__subtitle {
+  margin-bottom: 26px;
+  font-size: 24px;
+  letter-spacing: .01em;
+}
+
+.projects-button-prev,
+.projects-button-next {
+  top: 62%;
+  background-color: var(--semi-grey-color);
+}
+
+.projects-button-prev svg path,
+.projects-button-next svg path {
+  stroke: var(--dark-background-color);
+}
+
+.swiper-container--projects {
+  max-width: 90.5%;
+}
+
+.projects-swiper__link {
+  display: inline-block;
+}
